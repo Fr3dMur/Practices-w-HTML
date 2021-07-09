@@ -6,10 +6,42 @@
 	<title>1st Page</title>
 	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="icon" href="Media/logotipos-gratis-para-descargar.ico">
+
+	
 </head>
 <body>
+	<!-- Pequeños toques en los estilos -->
+	<style>
+
+		.logo-container__link{
+			text-decoration: none;
+			color: #000;
+		}
+
+		.logo-container__link:hover{
+			text-decoration: underline;
+			color: #555;	
+		}
+
+		.logo-container__logo{
+			font-size: 3em;
+		}
+		
+		img{
+			width: 400px;
+		}
+
+		header, main, footer{
+			margin: 0 20%;
+		}
+
+		ul{
+			list-style: none;
+		}
+
+	</style>
 	<!------------------------------- HEADER -------------------------------->
-	<header>
+	<header id="hea">
 		<span class="logo-container">
 			<a href="https://github.com/Fr3dMur" class="logo-container__link" target="_blank">
 				<h2 class="logo-container__logo">F r 3 d</h2>
@@ -19,8 +51,8 @@
 		<div class="menu">
 			<nav class="menu__nav">
 				<ul class="menu__list">
-					<li class="menu__object"><a href="#" class="menu__links">lorem</a></li>
-					<li class="menu__object"><a href="#" class="menu__links">lorem</a></li>
+					<li class="menu__object"><a href="#ind" class="menu__links">Indice</a></li>
+					<li class="menu__object"><a href="#contac" class="menu__links">Contactanos</a></li>
 					<li class="menu__object"><a href="#" class="menu__links">lorem</a></li>
 					<li class="menu__object"><a href="#" class="menu__links">lorem</a></li>
 				</ul>
@@ -32,9 +64,9 @@
 	<!----------------------------- MAIN --------------------------------->
 	<main>
 		
-		<article class="first">
+		<article class="content">
 			<section class="first__content">
-				<h1 class="title" id="1-art">Primera pagina</h1>
+				<h1 class="title" id="1-art">Primer contenido</h1>
                  	<div class="first">
                  		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum exercitationem unde at officiis expedita, architecto quidem suscipit cupiditate repellendus sint ex est sequi consequuntur dolores necessitatibus delectus fugit enim accusantium?
                  		Nisi tenetur possimus voluptatibus aliquid quae cum, laudantium velit blanditiis fugiat rerum eos nihil non a ipsam accusantium perferendis sunt similique rem animi accusamus recusandae reiciendis iusto. Architecto corrupti, a!
@@ -48,26 +80,23 @@
 		</article>
 
 		<!-- INDEX -->
-
 		<div class="index" id="ind">
 			<nav class="index__nav">
 				<h2 class="index__title">What are you looking for?</h2>
 				<ul class="index__list">
 					<li class="index__objects"><a href="#1-art" class="index__link">Primer articulo</a></li>
 					<li class="index__objects"><a href="#2-art" class="index__link">Segundo articulo</a></li>
-					<li class="index__objects"><a href="#" class="index__link">Something</a></li>
-					<li class="index__objects"><a href="#" class="index__link">Something</a></li>
-					<li class="index__objects"><a href="#" class="index__link">Something</a></li>
+					<li class="index__objects"><a href="#3-art" class="index__link">Tercer articulo</a></li>
+					<li class="index__objects"><a href="#4-art" class="index__link">Cuarto contenido</a></li>
+					<li class="index__objects"><a href="#5-art" class="index__link">Quinto contenido</a></li>
 				</ul>
 			</nav>
 		</div>
 
 		<!-- Second content -->
-
-		<article class="second">
 			<section class="second__content">
-				<h2 class="title" id="2-art">Segunda pagina</h2>
-					<a href="#ind" class="back">Volver al indice</a>
+				<h2 class="title" id="2-art">Segundo contenido</h2>
+<!-- Return to index --> <a href="#ind" class="back">Volver al indice</a>
                  	<div class="second">
                  		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum exercitationem unde at officiis expedita, architecto quidem suscipit cupiditate repellendus sint ex est sequi consequuntur dolores necessitatibus delectus fugit enim accusantium?
                  		Nisi tenetur possimus voluptatibus aliquid quae cum, laudantium velit blanditiis fugiat rerum eos nihil non a ipsam accusantium perferendis sunt similique rem animi accusamus recusandae reiciendis iusto. Architecto corrupti, a!
@@ -78,14 +107,87 @@
                  		<img src="Media/SVG/undraw_environment_iaus.svg" alt="Un par de manos sosteniendo una planta" class="img-contenedor-2-art__img">
                  	</div>
 			</section>
+		
+		
+		<!-- Third content -->
+			<section class="third__content">
+				<h2 class="title" id="3-art">Tercer contenido</h2>
+<!-- Return to index --><a href="#ind" class="back">Volver al indice</a>
+                 	<div class="third">
+                 		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum exercitationem unde at officiis expedita, architecto quidem suscipit cupiditate repellendus sint ex est sequi consequuntur dolores necessitatibus delectus fugit enim accusantium?
+                 		Nisi tenetur possimus voluptatibus aliquid quae cum, laudantium velit blanditiis fugiat rerum eos nihil non a ipsam accusantium perferendis sunt similique rem animi accusamus recusandae reiciendis iusto. Architecto corrupti, a!
+                 		Iure assumenda laboriosam quia saepe reprehenderit fugit nobis labore incidunt nihil eveniet eaque, facilis ratione accusantium sint voluptatum aliquid, adipisci consequuntur quibusdam, ipsam asperiores. Ipsam vero, voluptate eius vitae accusantium!
+                 		Non eveniet, dolorem. Quis, laboriosam autem tenetur neque animi assumenda dolores aspernatur excepturi aliquam similique voluptatibus aut officiis, laudantium eaque quisquam, reiciendis ab vitae error eos, pariatur. Ea, ipsa? Molestias.</p>
+                 	</div> 
+                 	<div class="img-contenedor-3-art">
+                 		<img src="Media/SVG/undraw_nature_m5ll.svg" alt="Una pequeña muestra de la naturaleza" class="img-contenedor-3-art__img">
+                 	</div>
+			</section>
+			
+				<!-- Fourth content -->
+
+			<section class="fourth__content">
+				<h2 class="title" id="4-art">Cuarto contenido</h2>
+<!-- Return to index --><a href="#ind" class="back">Volver al indice</a>
+                 	<div class="fourth">
+                 		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum exercitationem unde at officiis expedita, architecto quidem suscipit cupiditate repellendus sint ex est sequi consequuntur dolores necessitatibus delectus fugit enim accusantium?
+                 		Nisi tenetur possimus voluptatibus aliquid quae cum, laudantium velit blanditiis fugiat rerum eos nihil non a ipsam accusantium perferendis sunt similique rem animi accusamus recusandae reiciendis iusto. Architecto corrupti, a!
+                 		Iure assumenda laboriosam quia saepe reprehenderit fugit nobis labore incidunt nihil eveniet eaque, facilis ratione accusantium sint voluptatum aliquid, adipisci consequuntur quibusdam, ipsam asperiores. Ipsam vero, voluptate eius vitae accusantium!
+                 		Non eveniet, dolorem. Quis, laboriosam autem tenetur neque animi assumenda dolores aspernatur excepturi aliquam similique voluptatibus aut officiis, laudantium eaque quisquam, reiciendis ab vitae error eos, pariatur. Ea, ipsa? Molestias.</p>
+                 	</div> 
+                 	<div class="img-contenedor-4-art">
+                 		<img src="Media/SVG/undraw_the_world_is_mine_nb0e.svg" alt="Una persona que dice el mundo es nuestro" class="img-contenedor-4-art__img">
+                 	</div>
+			</section>
 		</article>
 
 
+				<!-- Fifth content -->
+
+			<section class="fifth__content">
+				<h2 class="title" id="5-art">Quinto contenido</h2>
+<!-- Return to index --><a href="#ind" class="back">Volver al indice</a>
+                 	<div class="fifth">
+                 		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum exercitationem unde at officiis expedita, architecto quidem suscipit cupiditate repellendus sint ex est sequi consequuntur dolores necessitatibus delectus fugit enim accusantium?
+                 		Nisi tenetur possimus voluptatibus aliquid quae cum, laudantium velit blanditiis fugiat rerum eos nihil non a ipsam accusantium perferendis sunt similique rem animi accusamus recusandae reiciendis iusto. Architecto corrupti, a!
+                 		Iure assumenda laboriosam quia saepe reprehenderit fugit nobis labore incidunt nihil eveniet eaque, facilis ratione accusantium sint voluptatum aliquid, adipisci consequuntur quibusdam, ipsam asperiores. Ipsam vero, voluptate eius vitae accusantium!
+                 		Non eveniet, dolorem. Quis, laboriosam autem tenetur neque animi assumenda dolores aspernatur excepturi aliquam similique voluptatibus aut officiis, laudantium eaque quisquam, reiciendis ab vitae error eos, pariatur. Ea, ipsa? Molestias.</p>
+                 	</div> 
+                 	<div class="img-contenedor-5-art">
+                 		<img src="Media/SVG/undraw_Environmental_study_re_q4q8.svg" alt="Una persona enseñando las estadisticas ambientales" class="img-contenedor-5-art__img">
+                 	</div>
+			</section>
+		</article>
 	</main>
+	<footer>
+		<hr>
+			<span class="logo-container">
+			<a href="https://github.com/Fr3dMur" class="logo-container__link" target="_blank">
+				<h2 class="logo-container__logo">F r 3 d</h2>
+			</a>
+		</span>	
+
+		<nav class="terminos">
+			<ul class="terminos__list">
+				<li class="terminos__object"><a href="#" class="terminos__link" target="_blank">Terminos y condiciones</a></li>
+				<li class="terminos__object"><a href="#" class="terminos__link" target="_blank">Politica de privacidad</a></li>
+				<li class="terminos__object"><a href="#" class="terminos__link" target="_blank">Soporte tecnico</a></li>
+			</ul>
+		</nav>
+
+		<div class="contc" >
+			<h3 class="contac__title" id="contac">Contactanos</h3>
+<!-- Return to header --><a href="#hea" class="back">Volver a inicio</a>
+			<nav class="contac__nav">
+				<ul class="contac__list">
+					<li class="contac__object"><a href="https://github.com/Fr3dMur" class="contac__link" target="_blank">GitHub</a></li>
+					<li class="contac__object"><a href="https://twitter.com/Fr3dMur15" class="contac__link" target="_blank">Twitter</a></li>
+					<li class="contac__object"><a href="https://instagram.com/fred_15mo" class="contac__link" target="_blank">Intagram</a></li>
+				</ul>
+			</nav>
+		</div>
 
 
-
-
-
+	</footer>
 </body>
 </html>
