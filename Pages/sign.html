@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="icon" href="Media/logotipos-gratis-para-descargar.ico">
+
+	
+</head>
+<body>
+	<!-- Pequeños toques en los estilos -->
+	<style>
+		header, main, .final{
+			margin: 0 20%;
+		}
+
+		.logo-container__link{
+			text-decoration: none;
+			color: #000;
+		}
+
+		.logo-container__link:hover{
+			text-decoration: underline;
+			color: #555;	
+		}
+
+		.logo-container__logo{
+			font-size: 3em;
+		}
+		
+		img{
+			width: 400px;
+		}
+
+		ul{
+			list-style: none;
+		}
+
+		.obj{
+			display: inline-block;
+		}
+
+		.sign{
+			width: 10vw;
+		}
+
+	</style>
+	<!------------------------------- HEADER -------------------------------->
+	<header id="hea">
+		<span class="logo-container">
+			<a href="https://github.com/Fr3dMur" class="logo-container__link" target="_blank">
+				<h2 class="logo-container__logo">F r 3 d</h2>
+			</a>
+		</span>		
+		<footer>
+			<div class="menu">
+				<nav class="menu__nav">
+					<ul class="menu__list">
+						<li class="menu__object obj"><a href="../index.html" class="menu__links">Inicio</a></li>
+						<li class="menu__object obj"><a href="#contac" class="menu__links">Contactanos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+		<hr>
+	</header>
+
+	<!----------------------------- MAIN --------------------------------->
+	<main>
+		<fieldset class="sign">
+			<legend class="sign__title">Registrate</legend>
+			<form action="" class="sign__form">
+				<!-- Personal information -->
+				<fieldset class="per">
+					<legend class="sign__per__title">Datos Personales</legend>
+						<label for=""> Nombres
+							<input type="text" required>
+						</label>
+						<label for=""> Apellidos
+							<input type="text" required>
+						</label>
+						<label for=""> Fecha de Nacimiento
+							<input type="date" required>
+						</label>
+						<br>
+						<label for=""> Tu direccion de residencia
+							<textarea name="" id="" cols="25" rows="5"></textarea>
+						</label>
+				</fieldset>
+				<!-- Account information -->
+				<fieldset class="acc">
+					<legend class="sign__acc__title">Datos de cuenta</legend>
+						
+						<label for=""> Nombre de Usuario
+							<input type="text" required>
+						</label>
+						<label for=""> Contraseña
+							<input type="password" required>
+						</label>
+						<label for=""> Contraseña
+							<input type="password" required>
+						</label>
+						<label for=""> Correo Electronico
+							<input type="email" required>
+						</label>
+				</fieldset>
+
+				<div class="sign__form__check">
+					<label for=""> 
+						<input type="checkbox">
+						Entiendiste y estas de acuerdo con los <a href="#">Terminos y Condiciones</a> de la pagina.
+					</label>
+				</div>
+				<a href="log.html">Ya tienes una cuenta?</a>
+				<input type="submit">
+
+			</form>
+		</fieldset>
+	</main>
+	<!----------------------------- FOOTER ------------------------------->
+	<footer class="final">
+		<hr>
+			<span class="logo-container">
+			<a href="https://github.com/Fr3dMur" class="logo-container__link" target="_blank">
+				<h2 class="logo-container__logo">F r 3 d</h2>
+			</a>
+		</span>	
+		
+		<div class="contc" >
+			<h3 class="contac__title" id="contac">Contactanos</h3>
+<!-- Return to header --><a href="#hea" class="back">Volver a inicio</a>
+			<nav class="contac__nav">
+				<ul class="contac__list">
+					<li class="contac__object"><a href="https://github.com/Fr3dMur" class="contac__link" target="_blank">GitHub</a></li>
+					<li class="contac__object"><a href="https://twitter.com/Fr3dMur15" class="contac__link" target="_blank">Twitter</a></li>
+					<li class="contac__object"><a href="https://instagram.com/fred_15mo" class="contac__link" target="_blank">Intagram</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<nav class="terminos">
+			<ul class="terminos__list">
+				<li class="terminos__object obj"><a href="#" class="terminos__link" target="_blank">Terminos y condiciones</a></li>
+				<li class="terminos__object obj"><a href="#" class="terminos__link" target="_blank">Politica de privacidad</a></li>
+				<li class="terminos__object obj"><a href="#" class="terminos__link" target="_blank">Soporte tecnico</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

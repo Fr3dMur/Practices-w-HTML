@@ -12,6 +12,9 @@
 <body>
 	<!-- Pequeños toques en los estilos -->
 	<style>
+		header, main, .final{
+			margin: 0 20%;
+		}
 
 		.logo-container__link{
 			text-decoration: none;
@@ -31,12 +34,12 @@
 			width: 400px;
 		}
 
-		header, main, footer{
-			margin: 0 20%;
-		}
-
 		ul{
 			list-style: none;
+		}
+
+		.obj{
+			display: inline-block;
 		}
 
 	</style>
@@ -47,17 +50,18 @@
 				<h2 class="logo-container__logo">F r 3 d</h2>
 			</a>
 		</span>		
-
-		<div class="menu">
-			<nav class="menu__nav">
-				<ul class="menu__list">
-					<li class="menu__object"><a href="#ind" class="menu__links">Indice</a></li>
-					<li class="menu__object"><a href="#contac" class="menu__links">Contactanos</a></li>
-					<li class="menu__object"><a href="#" class="menu__links">lorem</a></li>
-					<li class="menu__object"><a href="#" class="menu__links">lorem</a></li>
-				</ul>
-			</nav>
-		</div>
+		<footer>
+			<div class="menu">
+				<nav class="menu__nav">
+					<ul class="menu__list">
+						<li class="menu__object obj"><a href="#ind" class="menu__links">Indice</a></li>
+						<li class="menu__object obj"><a href="#contac" class="menu__links">Contactanos</a></li>
+						<li class="menu__object obj"><a href="Pages/sign.html" class="menu__links">Registrate</a></li>
+						<li class="menu__object obj"><a href="#" class="menu__links">lorem</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
 		<hr>
 	</header>
 
@@ -159,21 +163,13 @@
 			</section>
 		</article>
 	</main>
-	<footer>
+	<footer class="final">
 		<hr>
 			<span class="logo-container">
 			<a href="https://github.com/Fr3dMur" class="logo-container__link" target="_blank">
 				<h2 class="logo-container__logo">F r 3 d</h2>
 			</a>
 		</span>	
-
-		<nav class="terminos">
-			<ul class="terminos__list">
-				<li class="terminos__object"><a href="#" class="terminos__link" target="_blank">Terminos y condiciones</a></li>
-				<li class="terminos__object"><a href="#" class="terminos__link" target="_blank">Politica de privacidad</a></li>
-				<li class="terminos__object"><a href="#" class="terminos__link" target="_blank">Soporte tecnico</a></li>
-			</ul>
-		</nav>
 
 		<div class="contc" >
 			<h3 class="contac__title" id="contac">Contactanos</h3>
@@ -187,7 +183,13 @@
 			</nav>
 		</div>
 
-
+		<nav class="terminos">
+			<ul class="terminos__list">
+				<li class="terminos__object obj"><a href="#" class="terminos__link" target="_blank">Terminos y condiciones</a></li>
+				<li class="terminos__object obj"><a href="#" class="terminos__link" target="_blank">Politica de privacidad</a></li>
+				<li class="terminos__object obj"><a href="#" class="terminos__link" target="_blank">Soporte tecnico</a></li>
+			</ul>
+		</nav>
 	</footer>
 </body>
 </html>
