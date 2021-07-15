@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sign Up</title>
+	<title>Log in</title>
 	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="icon" href="../Media/logotipos-gratis-para-descargar.ico">
 	<link rel="stylesheet" href="../styles/styles.css">
@@ -34,54 +34,28 @@
 
 	<!----------------------------- MAIN --------------------------------->
 	<main>
-		<fieldset class="sign">
-			<legend class="sign__title">Registrate</legend>
-			<form action="" class="sign__form">
-				<!-- Personal information -->
-				<fieldset class="per">
-					<legend class="sign__per__title">Datos Personales</legend>
-						<label for=""> Nombres
-							<input type="text" required>
-						</label>
-						<label for=""> Apellidos
-							<input type="text" required>
-						</label>
-						<label for=""> Fecha de Nacimiento
-							<input type="date" required>
-						</label>
-						<br>
-						<label for=""> Tu direccion de residencia
-							<textarea name="" id="" cols="25" rows="5"></textarea>
-						</label>
-				</fieldset>
-				<!-- Account information -->
-				<fieldset class="acc">
-					<legend class="sign__acc__title">Datos de cuenta</legend>
-						
-						<label for=""> Nombre de Usuario
-							<input type="text" required>
-						</label>
-						<label for=""> Contraseña
-							<input type="password" required>
-						</label>
-						<label for=""> Contraseña
-							<input type="password" required>
-						</label>
-						<label for=""> Correo Electronico
-							<input type="email" required>
-						</label>
-				</fieldset>
-
-				<div class="sign__form__check">
-					<label for=""> 
-						<input type="checkbox">
-						Entiendiste y estas de acuerdo con los <a href="#">Terminos y Condiciones</a> de la pagina.
-					</label>
+		<fieldset class="log">
+			<legend class="log__title">Inicio de Sesion</legend>
+			<form action="" class="log__form">
+				<label>Usuario
+					<input type="text" name="username" placeholder="Ingresa tu nombre">
+				</label>
+				<label>Contraseña
+					<input type="password" name="password" placeholder="Ingresa tu contraseña">
+				</label>
+				<label>
+					<input type="checkbox" name="check_in">
+				</label> Recordar tu usuario?
+				<div>
+					<a href="#">Has olvidado tu contraseña?</a>
 				</div>
-				<a href="log.html">Ya tienes una cuenta?</a>
-				<input type="submit">
-
-			</form>
+				<label>
+					<input type="submit" name="send" value="Enviar">
+				</label>
+				<div>
+					<a href="sign.html">Registrate</a>
+				</div>
+			</form> 
 		</fieldset>
 	</main>
 	<!----------------------------- FOOTER ------------------------------->

@@ -1,0 +1,632 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"U",
+				"url()"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"s",
+				"send"
+			],
+			[
+				"p",
+				"placeholder"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"b",
+				"border-color"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"undraw_",
+				"undraw_Environmental_study_re_q4q8.svg"
+			],
+			[
+				"undraw_O",
+				"undraw_environment_iaus.svg"
+			],
+			[
+				"1",
+				"1-art"
+			],
+			[
+				"M",
+				"Media/"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"styles",
+				"styles.css"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"boxs",
+				"box-sizing"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"ite",
+				"align-items"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"shadow",
+				"box-shadow"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"conte",
+				"contenedor"
+			],
+			[
+				"bos",
+				"box-shadow"
+			],
+			[
+				"Mu",
+				"Multimedia/"
+			],
+			[
+				"rig",
+				"right\tproperty"
+			],
+			[
+				"borderrad",
+				"border-radius\tproperty"
+			],
+			[
+				"boder",
+				"border\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"border-tp",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"border-to",
+				"border-top-left-radius\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"color-pri",
+				"color-primario-claro"
+			],
+			[
+				"l",
+				"legend\tTag"
+			],
+			[
+				"textde",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"MAR",
+				"margin\tproperty"
+			],
+			[
+				"bot",
+				"bottom\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"tab",
+				"table-column\tdisplay"
+			],
+			[
+				"line",
+				"fab-line"
+			],
+			[
+				"shado",
+				"text-shadow\tproperty"
+			],
+			[
+				"border-c",
+				"border-collapse\tproperty"
+			],
+			[
+				"backg",
+				"background\tproperty"
+			],
+			[
+				"lis",
+				"list-style-type\tproperty"
+			],
+			[
+				"bold",
+				"fab-bold"
+			],
+			[
+				"conten",
+				"align-content\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground-color"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"le",
+				"left\tproperty"
+			],
+			[
+				"ob",
+				"object-position\tproperty"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"r",
+				"right\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"wit",
+				"wi-wind-beaufort-11"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"live",
+				"Live Server: Start"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"paclkage control",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 193.0,
+		"history":
+		[
+			"run",
+			"ls",
+			"python3 -m http.server 8888",
+			"git status",
+			"d"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/fredmurillo/Documentos/Projects/Practices-w-HTML/styles/styles.css",
+		"/home/fredmurillo/Documentos/Projects/Practices-w-HTML/Pages/log.html",
+		"/home/fredmurillo/Documentos/Projects/Practices-w-HTML/styles/normalize.css",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/index.html",
+		"/home/fredmurillo/Documentos/Projects/Practices-w-HTML/README.md",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/Practices2/pages/equipo.html",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/Practices2/styles/styles.css",
+		"/home/fredmurillo/.ssh/id_rsa.pub",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/Practices2/README.md",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/Practices2/equipo.html",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/Practices2/normalize.css",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/Practices2/styles.css",
+		"/home/fredmurillo/Documentos/CSS Practices/pseudo-clases-codigo_base/pseudoclases.html",
+		"/home/fredmurillo/Documentos/CSS Practices/PseudoElementos Practices/index.html",
+		"/home/fredmurillo/Documentos/CSS Practices/pseudo-clases-codigo_base/css/pseudoclases.css",
+		"/home/fredmurillo/Documentos/CSS Practices/pseudo-clases-codigo_base/css/formularios.css",
+		"/home/fredmurillo/Documentos/CSS Practices/PseudoElementos Practices/styles.css",
+		"/home/fredmurillo/Documentos/CSS Practices/pseudo-clases-codigo_base/formularios.html",
+		"/home/fredmurillo/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+		"/home/fredmurillo/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/fredmurillo/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/home/fredmurillo/Documentos/CSS Practices/MorePractices/styles.css",
+		"/home/fredmurillo/Documentos/CSS Practices/More Practices/index.html,",
+		"/home/fredmurillo/Documentos/CSS Practices/CSS Varibles/css-variables-codigo_base/css/estilos.css",
+		"/home/fredmurillo/Documentos/CSS Practices/CSS Varibles/css-variables-codigo_base/index.html",
+		"/home/fredmurillo/Documentos/CSS Practices/CSS Varibles/css-variables-codigo_base.zip",
+		"/home/fredmurillo/Documentos/CSS Practices/styles.css",
+		"/home/fredmurillo/Documentos/HiGIt/styles.css",
+		"/home/fredmurillo/Documentos/HiGIt/log_in.html",
+		"/home/fredmurillo/Documentos/CSS Practices/list.html",
+		"/home/fredmurillo/Documentos/HiGIt/index.html",
+		"/home/fredmurillo/.config/sublime-text-3/Packages/User/.jsbeautifyrc",
+		"/home/fredmurillo/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/home/fredmurillo/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/fredmurillo/Documentos/HiGIt/sign_up.html",
+		"/home/fredmurillo/Documentos/HiGIt/page2.html",
+		"/home/fredmurillo/Documentos/HiGIt/.gitignore"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
