@@ -1,7 +1,7 @@
 		:root{
-			--fondo1: #F8F32B;
-			--fondo2: #EBEBEB;
-			--fondo3: #222222;
+			--fondoHeader: #F8F32B;
+			--fondoMain: #EBEBEB;
+			--fondoFooter: #222222;
 		}
 
 		header, main, .final{
@@ -13,16 +13,16 @@
 		}
 
 		header{
-			background-color: var(--fondo1);
+			background-color: var(--fondoHeader);
 			color: #fff;
 		}
 
 		main{
-			background-color: var(--fondo2);
+			background-color: var(--fondoMain);
 		}
 
 		footer{
-			background-color: var(--fondo3);
+			background-color: var(--fondoFooter);
 			color: #fff;
 		}
 
@@ -61,6 +61,9 @@
 			display: inline-block;
 		}
 
-		.sign, .log{
-			width: 10vw;
-		}
+.sign, .log{
+	width: 10vw;
+}
+
+		/* Pruebas con degradados */
+

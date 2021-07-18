@@ -1,0 +1,122 @@
+:root{
+    --fondo: #939393;
+    
+    --fondoHeader: #F8F32B;
+	--fondoMain: #EBEBEB;
+	--fondoFooter: #222222;
+
+    --alto: 500px;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+	height: auto;
+    background-color: var(--fondo);
+}
+
+header, main, .final{
+    margin: 0 20%;
+    box-shadow: 0 20px 50px #000 ;
+}
+
+header{
+    background-color: var(--fondoHeader);
+    color: #fff;
+}
+
+.logo-container__link{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-container__link:hover{
+    text-decoration: underline;
+    color: #555;	
+}
+
+.logo-container__logo{
+    font-size: 3em;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.obj{
+    display: inline-block;
+}
+
+/****************************************************BANDERAS********************************************/
+main{
+    background-color: var(--fondoMain);
+    height: auto;
+}
+
+.banderas{
+	padding: 3rem;
+}
+
+.banderas :last-child{
+    margin-bottom: 0;
+}
+
+.vid{
+    width: 100%;
+	height: var(--alto);
+    margin-bottom: 3rem;
+    border: .01px solid #000;
+    font-size: 2rem;
+    box-shadow: 5px 10px 10px #0c0c0c;
+}
+
+.spain{
+	background-image: linear-gradient(to bottom, #C70827 25%,#F8BD00 25% 75%, #C70827 75% 100%);
+}
+
+.rusia{
+	background-image: linear-gradient(to bottom,#F2F2F2 33%, #103B8F 33% 66%, #E10A26 66% 99%);
+}
+
+.alemania{
+    background-image: linear-gradient(to bottom, #050505 32%, #E1102D 32% 62%, #F4D100 62% 100%);
+    color: #fff;
+}
+
+.belgica{
+    background-image: linear-gradient(to right,      #050505 34%, #F4D100 34% 67%, #E1102D 67% 100%);
+    color: #fff;
+}
+
+.andorra{
+    background-image: linear-gradient(to right, #011980 30%, #E6DA00 30% 70%, #E00A39 70% 100%);
+    text-align: center;
+}
+
+.circle{
+    height: 10rem;
+    width: 11rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #B65AD9 10%, #931ECB 10% 20%, #B65AD9 20% 30%, #931ECB 30% 40%, #B65AD9 40% 50%, #931ECB 50% 60%, #B65AD9 60% 70%, #931ECB 70% 80%, #B65AD9 80% 90%, #931ECB 90% 100%);
+}
+
+footer{
+    background-color: var(--fondoFooter);
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer .logo-container__link{
+    color: #e1e1e1;
+}
